@@ -38,8 +38,9 @@ public class Interface extends javax.swing.JFrame {
 
         jLayeredPane1.setBackground(new java.awt.Color(255, 255, 0));
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 0));
+        jPanel1.setBackground(new java.awt.Color(255, 0, 0));
 
+        Subbmit.setBackground(new java.awt.Color(204, 204, 204));
         Subbmit.setText("Convert");
         Subbmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -47,8 +48,10 @@ public class Interface extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Celcius");
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Fahrnheit");
 
         jLabel3.setText("Ini tambahan");
